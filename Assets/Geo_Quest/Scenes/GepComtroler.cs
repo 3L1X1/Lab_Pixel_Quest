@@ -14,7 +14,13 @@ public class NewBehaviourScript : MonoBehaviour
     Rigidbody2D rb;
     public int speed = 5;
     public String nextLevel = "Scene_2";
+    public String nextLevel3 = "Scene_3";
 
+    public NewBehaviourScript(string nextLevel)
+    {
+        this.nextLevel = nextLevel;
+        this.nextLevel = nextLevel3;
+    }
 
     // Start is called before the first frame update
     public void Start()
