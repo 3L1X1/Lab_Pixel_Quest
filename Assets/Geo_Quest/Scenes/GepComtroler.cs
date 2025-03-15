@@ -15,6 +15,7 @@ public class NewBehaviourScript : MonoBehaviour
     public int speed = 5;
     public String nextLevel = "Scene_2";
     public String nextLevel3 = "Scene_3";
+   
 
     public NewBehaviourScript(string nextLevel)
     {
